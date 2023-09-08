@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    padding: 20px 0;
+    color: #55efc4;
+}
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 90px;
+    margin-bottom: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+}
+label{
+    padding: 10px 0;
+    font-weight: 600;
+}
+input{
+    padding: 10px 80px;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+input::placeholder{
+    font-weight: 500;
+    font-size: 1rem;
+    color: #000;
+}
+#opt{
+    outline: none;
+    padding: 10px 80px;
+    font-weight: 500;
+    font-size: 1rem;
+    border-radius: 10px;
+}
+#message{
+    resize: vertical;
+    padding: 5px 80px;
+    font-weight: 500;
+    font-size: 1rem;
+    outline: none;
+    border-radius: 10px;
+}
+.btn{
+    padding: 15px 30px;
+    border: none;
+    border-radius: 20px;
+    background-color:#55efc4 ;
+    margin-top: 5px;
+    color: #fff;
+    cursor: pointer;
+}
